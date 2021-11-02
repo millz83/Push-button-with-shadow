@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Sansita+One);
+
+#container {
+  background-color:#fff;
+}
+
+.big-button {
+  position: relative;
+  background-color:plum;
+  color: #00000;
+  font-family: 'Sansita One', cursive;
+  font-size: 26px;
+  font-weight: 500;
+  margin: 10px auto;
+  padding: 20px;
+  height: 150px;
+  width: 270px;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  
+  
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  
+  -webkit-box-shadow: 0px 15px 0px #680475, 0px 10px 25px rgba(0,0,0,.5);
+  -moz-box-shadow: 0px 15px 0px #680475, 0px 10px 25px rgba(0,0,0,.5);
+  box-shadow: 0px 15px 0px #680475, 0px 10px 25px rgba(0,0,0,.5);
+  
+  margin: 50px auto;
+  
+  border-color: #e566ff;
+  border-width: 10px;
+  border-radius: 40px 100px 100px 100px;
+  padding: 20px;
+}
+
+.big-button:active {
+  box-shadow: 0px 3px 0px #a70791, 0px 3px 6px rgba(0,0,0,.9);
+  position: relative;
+  top: 10px;
+}
+
+.shadow {
+  background: #000;
+  border-radius: 40px 100px 100px 100px;
+  box-shadow: 0 0 20px 10px #111;
+  height: 120px;
+  width: 270px;
+  opacity: 0.2;
+  margin: 30px auto;
+}
+
+.shadow:active {
+  box-shadow: 0px 3px 0px #a70791, 0px 3px 6px rgba(0,0,0,.9);
+  position: relative;
+  top: 50px;
+}
